@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void) /* entry point */
+{
+    int b = 2; //safasf 
+    int c = 1; //asswww
+    int x = 10; // counter
+    return x / 2;
+    printf("/* not a comment */ // neither is this\n"); // but this is
+    char q = '"'; /* quote in a char */ char s = '\'';
+    int/**/a = b /*/ still a comment */ / c; /** stars **/
+}
